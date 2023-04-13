@@ -2,7 +2,6 @@
 一个简单的微博爬虫
 - -*- coding:       utf-8 -*-
 - author:           qingyang
-- create_time:      2023/4/12 10:48
 - 运行环境           Python3.9.6/windows/jupyter notebook
 - 参考              月小水长https://github.com/inspurer
 - github            https://github.com/qingyang-qingyang/weibo_spider_2023-
@@ -36,4 +35,6 @@
   - 评论数
   
 ##### *可能存在的BUG*
-微博爬取页数和微博爬取时间段可能发生冲突，即规定时间段内可能没有那么多页
+(已修改完成，该BUG解决2023.4.13）
+描述：爬取时间段可能发生冲突，即规定时间段内可能没有那么多页
+解决：时间段优先级高于页数
